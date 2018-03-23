@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F3672A67EE0A2ED1D608C8 /* libPods-对勾动画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6EA89A63A5186C03F14AB4 /* libPods-对勾动画.a */; };
+		7B09B61F1FEA7205004DBAC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B09B61E1FEA7205004DBAC4 /* AppDelegate.m */; };
+		7B09B6221FEA7205004DBAC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B09B6211FEA7205004DBAC4 /* ViewController.m */; };
+		7B09B6251FEA7205004DBAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B09B6231FEA7205004DBAC4 /* Main.storyboard */; };
+		7B09B6271FEA7205004DBAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B09B6261FEA7205004DBAC4 /* Assets.xcassets */; };
+		7B09B62A1FEA7205004DBAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B09B6281FEA7205004DBAC4 /* LaunchScreen.storyboard */; };
+		7B09B62D1FEA7205004DBAC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B09B62C1FEA7205004DBAC4 /* main.m */; };
+		7B09B6371FEA7205004DBAC4 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B09B6361FEA7205004DBAC4 /* ____UITests.m */; };
+		7B09B6431FEA726F004DBAC4 /* ISVAddAttentionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B09B6421FEA726F004DBAC4 /* ISVAddAttentionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B09B6331FEA7205004DBAC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B09B6121FEA7205004DBAC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B09B6191FEA7205004DBAC4;
+			remoteInfo = "对勾动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56EC4AAB4E3D3C993999FA32 /* Pods-对勾动画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-对勾动画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-对勾动画/Pods-对勾动画.debug.xcconfig"; sourceTree = "<group>"; };
+		7B09B61A1FEA7205004DBAC4 /* 对勾动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "对勾动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B09B61D1FEA7205004DBAC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B09B61E1FEA7205004DBAC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B09B6201FEA7205004DBAC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B09B6211FEA7205004DBAC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B09B6241FEA7205004DBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B09B6261FEA7205004DBAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B09B6291FEA7205004DBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B09B62B1FEA7205004DBAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B09B62C1FEA7205004DBAC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B09B6321FEA7205004DBAC4 /* 对勾动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "对勾动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B09B6361FEA7205004DBAC4 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		7B09B6381FEA7205004DBAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B09B6411FEA726F004DBAC4 /* ISVAddAttentionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISVAddAttentionView.h; sourceTree = "<group>"; };
+		7B09B6421FEA726F004DBAC4 /* ISVAddAttentionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISVAddAttentionView.m; sourceTree = "<group>"; };
+		BAADD47015F7B47E04EC65E2 /* Pods-对勾动画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-对勾动画.release.xcconfig"; path = "Pods/Target Support Files/Pods-对勾动画/Pods-对勾动画.release.xcconfig"; sourceTree = "<group>"; };
+		DF6EA89A63A5186C03F14AB4 /* libPods-对勾动画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-对勾动画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B09B6171FEA7205004DBAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F3672A67EE0A2ED1D608C8 /* libPods-对勾动画.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B09B62F1FEA7205004DBAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B09B6111FEA7205004DBAC4 = {
+			isa = PBXGroup;
+			children = (
+				7B09B61C1FEA7205004DBAC4 /* 对勾动画 */,
+				7B09B6351FEA7205004DBAC4 /* 对勾动画UITests */,
+				7B09B61B1FEA7205004DBAC4 /* Products */,
+				AC627C8C856D0E0F91772CBC /* Pods */,
+				D69FEE409A32CC9DF6AE6732 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B09B61B1FEA7205004DBAC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B09B61A1FEA7205004DBAC4 /* 对勾动画.app */,
+				7B09B6321FEA7205004DBAC4 /* 对勾动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B09B61C1FEA7205004DBAC4 /* 对勾动画 */ = {
+			isa = PBXGroup;
+			children = (
+				7B09B61D1FEA7205004DBAC4 /* AppDelegate.h */,
+				7B09B61E1FEA7205004DBAC4 /* AppDelegate.m */,
+				7B09B6201FEA7205004DBAC4 /* ViewController.h */,
+				7B09B6211FEA7205004DBAC4 /* ViewController.m */,
+				7B09B6411FEA726F004DBAC4 /* ISVAddAttentionView.h */,
+				7B09B6421FEA726F004DBAC4 /* ISVAddAttentionView.m */,
+				7B09B6231FEA7205004DBAC4 /* Main.storyboard */,
+				7B09B6261FEA7205004DBAC4 /* Assets.xcassets */,
+				7B09B6281FEA7205004DBAC4 /* LaunchScreen.storyboard */,
+				7B09B62B1FEA7205004DBAC4 /* Info.plist */,
+				7B09B62C1FEA7205004DBAC4 /* main.m */,
+			);
+			path = "对勾动画";
+			sourceTree = "<group>";
+		};
+		7B09B6351FEA7205004DBAC4 /* 对勾动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B09B6361FEA7205004DBAC4 /* ____UITests.m */,
+				7B09B6381FEA7205004DBAC4 /* Info.plist */,
+			);
+			path = "对勾动画UITests";
+			sourceTree = "<group>";
+		};
+		AC627C8C856D0E0F91772CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EC4AAB4E3D3C993999FA32 /* Pods-对勾动画.debug.xcconfig */,
+				BAADD47015F7B47E04EC65E2 /* Pods-对勾动画.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D69FEE409A32CC9DF6AE6732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF6EA89A63A5186C03F14AB4 /* libPods-对勾动画.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B09B6191FEA7205004DBAC4 /* 对勾动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B09B63B1FEA7205004DBAC4 /* Build configuration list for PBXNativeTarget "对勾动画" */;
+			buildPhases = (
+				0F5622354E70222F1730F44D /* [CP] Check Pods Manifest.lock */,
+				7B09B6161FEA7205004DBAC4 /* Sources */,
+				7B09B6171FEA7205004DBAC4 /* Frameworks */,
+				7B09B6181FEA7205004DBAC4 /* Resources */,
+				E646B3B8A0537F998B425F79 /* [CP] Embed Pods Frameworks */,
+				D90BDC2FA156981FE5BA2A48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对勾动画";
+			productName = "对勾动画";
+			productReference = 7B09B61A1FEA7205004DBAC4 /* 对勾动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B09B6311FEA7205004DBAC4 /* 对勾动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B09B63E1FEA7205004DBAC4 /* Build configuration list for PBXNativeTarget "对勾动画UITests" */;
+			buildPhases = (
+				7B09B62E1FEA7205004DBAC4 /* Sources */,
+				7B09B62F1FEA7205004DBAC4 /* Frameworks */,
+				7B09B6301FEA7205004DBAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B09B6341FEA7205004DBAC4 /* PBXTargetDependency */,
+			);
+			name = "对勾动画UITests";
+			productName = "对勾动画UITests";
+			productReference = 7B09B6321FEA7205004DBAC4 /* 对勾动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B09B6121FEA7205004DBAC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "凤凰新媒体";
+				TargetAttributes = {
+					7B09B6191FEA7205004DBAC4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					7B09B6311FEA7205004DBAC4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B09B6191FEA7205004DBAC4;
+					};
+				};
+			};
+			buildConfigurationList = 7B09B6151FEA7205004DBAC4 /* Build configuration list for PBXProject "对勾动画" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B09B6111FEA7205004DBAC4;
+			productRefGroup = 7B09B61B1FEA7205004DBAC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B09B6191FEA7205004DBAC4 /* 对勾动画 */,
+				7B09B6311FEA7205004DBAC4 /* 对勾动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B09B6181FEA7205004DBAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B09B62A1FEA7205004DBAC4 /* LaunchScreen.storyboard in Resources */,
+				7B09B6271FEA7205004DBAC4 /* Assets.xcassets in Resources */,
+				7B09B6251FEA7205004DBAC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B09B6301FEA7205004DBAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F5622354E70222F1730F44D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D90BDC2FA156981FE5BA2A48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-对勾动画/Pods-对勾动画-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E646B3B8A0537F998B425F79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-对勾动画/Pods-对勾动画-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B09B6161FEA7205004DBAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B09B6431FEA726F004DBAC4 /* ISVAddAttentionView.m in Sources */,
+				7B09B6221FEA7205004DBAC4 /* ViewController.m in Sources */,
+				7B09B62D1FEA7205004DBAC4 /* main.m in Sources */,
+				7B09B61F1FEA7205004DBAC4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B09B62E1FEA7205004DBAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B09B6371FEA7205004DBAC4 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B09B6341FEA7205004DBAC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B09B6191FEA7205004DBAC4 /* 对勾动画 */;
+			targetProxy = 7B09B6331FEA7205004DBAC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B09B6231FEA7205004DBAC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B09B6241FEA7205004DBAC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B09B6281FEA7205004DBAC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B09B6291FEA7205004DBAC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B09B6391FEA7205004DBAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B09B63A1FEA7205004DBAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B09B63C1FEA7205004DBAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EC4AAB4E3D3C993999FA32 /* Pods-对勾动画.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4BGCMW4NP6;
+				INFOPLIST_FILE = "对勾动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifeng.app.smallvideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5b74465-4022-4872-8e30-274a0767b8f3";
+				PROVISIONING_PROFILE_SPECIFIER = ProfileForWHTest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B09B63D1FEA7205004DBAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAADD47015F7B47E04EC65E2 /* Pods-对勾动画.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4BGCMW4NP6;
+				INFOPLIST_FILE = "对勾动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifeng.app.smallvideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5b74465-4022-4872-8e30-274a0767b8f3";
+				PROVISIONING_PROFILE_SPECIFIER = ProfileForWHTest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B09B63F1FEA7205004DBAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "对勾动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifengsmallvideo.app.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "对勾动画";
+			};
+			name = Debug;
+		};
+		7B09B6401FEA7205004DBAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "对勾动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifengsmallvideo.app.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "对勾动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B09B6151FEA7205004DBAC4 /* Build configuration list for PBXProject "对勾动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B09B6391FEA7205004DBAC4 /* Debug */,
+				7B09B63A1FEA7205004DBAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B09B63B1FEA7205004DBAC4 /* Build configuration list for PBXNativeTarget "对勾动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B09B63C1FEA7205004DBAC4 /* Debug */,
+				7B09B63D1FEA7205004DBAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B09B63E1FEA7205004DBAC4 /* Build configuration list for PBXNativeTarget "对勾动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B09B63F1FEA7205004DBAC4 /* Debug */,
+				7B09B6401FEA7205004DBAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B09B6121FEA7205004DBAC4 /* Project object */;
+}

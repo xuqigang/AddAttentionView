@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.1.0)
+  - UMengAnalytics (4.2.4)
+
+DEPENDENCIES:
+  - Masonry
+  - UMengAnalytics
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+
+PODFILE CHECKSUM: 355183a9dc02ff34cd115f88c68bd5d3ca8e5ed2
+
+COCOAPODS: 1.2.1
